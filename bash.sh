@@ -43,8 +43,10 @@ sudo snap install multipass
 echo you may need to enter your sudo password
 sudo apt autoremove -y
 #setting up multipass
-multipass shell
-exit
+multipass start
+multipass launch
+
+
 
 
 
