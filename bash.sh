@@ -6,7 +6,7 @@ sudo apt autoremove
 
 echo fixing previous versions
 sudo snap remove multipass
-sudo apt remove  wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
+sudo apt remove  google-chrome-stable wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
 
 echo installing Content
 
@@ -39,6 +39,8 @@ echo installing myst
 
 sudo -E bash -c "$(curl -s https://raw.githubusercontent.com/mysteriumnetwork/node/master/install.sh)"
 sudo apt update
+
+
 
 echo installing XMRIG
 git clone https://github.com/xmrig/xmrig.git
