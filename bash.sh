@@ -42,6 +42,11 @@ sudo snap install multipass
 
 echo you may need to enter your sudo password
 sudo apt autoremove -y
+#setting up multipass
+multipass shell
+exit
+
+
 
 #ookla speed test
 echo installing speedtest by ookla
