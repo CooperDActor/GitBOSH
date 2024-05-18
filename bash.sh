@@ -7,7 +7,7 @@ echo
 echo 
 
 #verification for SUDO
-sudo apt autoremove
+sudo apt autoremove -y
 
 
 #installing items 
@@ -19,7 +19,7 @@ echo
 
 
 
-sudo apt install wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
+sudo apt install docker docker.io docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
 
 #update repos
 Sudo apt update
@@ -38,6 +38,10 @@ echo
 
 sudo snap install hello-world
 sudo snap install multipass
+
+
+echo you may need to enter your sudo password
+sudo apt autoremove -y
 
 #ookla speed test
 echo installing speedtest by ookla
@@ -62,6 +66,22 @@ echo
 
 sudo docker run honeygain/honeygain -tou-get
 sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
+
+
+
+
+#installing NTFY
+
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://archive.heckel.io/apt/pubkey.txt | sudo gpg --dearmor -o /etc/apt/keyrings/archive.heckel.io.gpg
+sudo apt install apt-transport-https
+sudo sh -c "echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/archive.heckel.io.gpg] https://archive.heckel.io/apt debian main' \
+    > /etc/apt/sources.list.d/archive.heckel.io.list"  
+sudo apt update
+sudo apt install ntfy
+sudo systemctl enable ntfy
+sudo systemctl start ntfy
+
 
 #Installing MYSTNODE
 echo installing myst
@@ -88,14 +108,6 @@ cmake ..
 make
 cd
 
-
-#temp monero ocean miner
-echo installing MoneroOcean
-echo 
-echo 
-echo 
-
-curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 43FWtktcN1jD8jV5iaU9iR1vT9uvrPrHjR93Fpe4JGkUPHjtvvsNp2K1WUEfgaKNJXgk1GCTRQHfMWpibysocHweHMUp4pK
 
 #installing chrome
 echo installing chrome
