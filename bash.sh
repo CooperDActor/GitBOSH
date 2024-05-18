@@ -1,15 +1,24 @@
 #!/bin/bash
+
+echo enter sudo password
+sudo apt autoremove
+
+
 echo fixing previous versions
 sudo snap remove multipass
-sudo apt remove docker.io docker docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
+sudo apt remove  wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
 
 echo installing Content
 
-sudo apt install docker.io docker docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
+sudo apt install  wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
 
 Sudo apt update
 sudo apt upgrade
 sudo apt full-upgrade
+
+echo config snapd
+sudo snap install hello-world
+sudo snap install multipass
 
 
 echo installing speedtest by ookla
