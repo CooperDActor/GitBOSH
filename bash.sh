@@ -16,6 +16,10 @@ Sudo apt update
 sudo apt upgrade
 sudo apt full-upgrade
 
+echo installing brew ( a nice beer)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
 echo config snapd
 sudo snap install hello-world
 sudo snap install multipass
