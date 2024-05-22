@@ -28,17 +28,19 @@ sudo apt full-upgrade
 
 #install brew 
 echo installing brew - beer
-git clone github.com/CooperDActor/hot-brew.git
-git clone https://github.com/Homebrew/brew.git homebrew
+git clone github.com/CooperDActor/hot-brew.git homebrew
 
 eval "$(homebrew/bin/brew shellenv)"
 
 brew update --force --quiet
 
-chmod -R go-w "$(brew --prefix)/share/zsh"#configure snap
+chmod -R go-w "$(brew --prefix)/share/zsh"
 
 
 
+
+
+#configure snap
 echo configa - slang snapd
 echo 
 echo 
@@ -132,9 +134,7 @@ echo
 
 cd downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-su
-gdebi google-chrome-stable_current_amd64.deb -y
-exit
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 cd
 
 #downloading beef
@@ -204,10 +204,13 @@ cd peppermint
 docker-compose up -d
 
 echo username for admin: admin@admin.com password for admin: 1234
-
+echo  
+echo 
+echo 
 echo ok 
 echo 
-
+echo 
+echo 
 #installing PI-HOLE
 echo pi in the hole!!!!!
 echo 
@@ -251,6 +254,15 @@ echo
 
 
 
+
+#install RDP
+echo installing RDP..... sudo may be required 
+echo 
+echo 
+echo 
+echo You May Need To Enter Your Sudo Password
+
+sudo apt autoremove -y
 
 
 
