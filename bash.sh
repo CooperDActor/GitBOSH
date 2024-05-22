@@ -28,9 +28,17 @@ sudo apt full-upgrade
 
 #install brew 
 echo installing brew - beer
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+git clone github.com/CooperDActor/hot-brew.git
+git clone https://github.com/Homebrew/brew.git homebrew
 
-#configure snap
+eval "$(homebrew/bin/brew shellenv)"
+
+brew update --force --quiet
+
+chmod -R go-w "$(brew --prefix)/share/zsh"#configure snap
+
+
+
 echo configa - slang snapd
 echo 
 echo 
