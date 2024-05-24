@@ -279,10 +279,6 @@ sudo dpkg -i teamviewer_15.53.6_amd64.deb
 sudo dpkg -i teamviewer-host_15.53.6_amd64.deb
 cd 
 
-
-
-
-
 # ant media installing
 echo installing an ant - media server for streaming 
 
@@ -313,3 +309,4 @@ echo
 
 
 
+exit
