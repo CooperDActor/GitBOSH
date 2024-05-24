@@ -19,7 +19,7 @@ echo
 
 
 
-sudo apt install docker docker.io docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
+sudo apt install docker docker.io docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupgfonts-liberation libatk-bridge2.0-0 libatk1.0-0 libatspi2.0-0 libcairo2 libcups2 libgbm1 libgtk-3-0 libgtk-4-1 libnspr4 libnss3 libpango-1.0-0 libu2f-udev libvulkan1 libxcomposite1 libxdamage1 libxfixes3 libxkbcommon0 libxrandr2 xdg-utils -y
 
 #update repos
 Sudo apt update -y
@@ -91,8 +91,8 @@ curl -fsSL https://archive.heckel.io/apt/pubkey.txt | sudo gpg --dearmor -o /etc
 sudo apt install apt-transport-https
 sudo sh -c "echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/archive.heckel.io.gpg] https://archive.heckel.io/apt debian main' \
     > /etc/apt/sources.list.d/archive.heckel.io.list"  
-sudo apt update
-sudo apt install ntfy
+sudo apt update -y
+sudo apt install ntfy -y
 sudo systemctl enable ntfy
 sudo systemctl start ntfy
 
