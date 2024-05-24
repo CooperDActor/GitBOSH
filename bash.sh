@@ -22,18 +22,18 @@ echo
 sudo apt install docker docker.io docker-compose wget snapd curl git build-essential cmake libuv1-dev libssl-dev libhwloc-dev gdebi ruby ruby-dev curl dpkg tzdata ca-certificates wget net-tools gnupg -y
 
 #update repos
-Sudo apt update
-sudo apt upgrade
-sudo apt full-upgrade
+Sudo apt update -y
+sudo apt upgrade -y
+sudo apt full-upgrade -y
 
 
 #sudo saver
 echo May need sudo 
-sudo apt autoremove
+sudo apt autoremove -y
 
 #install brew 
 echo installing brew - beer
-git clone github.com/CooperDActor/hot-brew.git homebrew
+git clone github.com/CooperDActor/hot-brewer.git homebrew
 
 eval "$(homebrew/bin/brew shellenv)"
 
@@ -64,7 +64,7 @@ multipass launch
 
 #sudo checker
 echo please enter sudo password
-sudo apt autoremove
+sudo apt autoremove -y
 #ookla speed test
 echo installing speedtest by ookla
 echo 
@@ -74,7 +74,7 @@ echo
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 
 #update repos
-sudo apt update
+sudo apt update -y
 
 
 sudo apt-get install speedtest
@@ -104,7 +104,7 @@ echo
 echo 
 
 sudo -E bash -c "$(curl -s https://raw.githubusercontent.com/mysteriumnetwork/node/master/install.sh)"
-sudo apt update
+sudo apt update -y
 
 
 #xmrig install 
