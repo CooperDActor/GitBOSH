@@ -283,23 +283,6 @@ cd
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ant media installing
 echo installing an ant - media server for streaming 
 
