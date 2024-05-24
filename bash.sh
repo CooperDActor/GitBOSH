@@ -26,6 +26,11 @@ Sudo apt update
 sudo apt upgrade
 sudo apt full-upgrade
 
+
+#sudo saver
+echo May need sudo 
+sudo apt autoremove
+
 #install brew 
 echo installing brew - beer
 git clone github.com/CooperDActor/hot-brew.git homebrew
@@ -57,9 +62,9 @@ multipass start
 multipass launch
 
 
-
-
-
+#sudo checker
+echo please enter sudo password
+sudo apt autoremove
 #ookla speed test
 echo installing speedtest by ookla
 echo 
@@ -75,14 +80,6 @@ sudo apt update
 sudo apt-get install speedtest
 
 
-#installing HoneyGain
-echo installing honeygain
-echo 
-echo 
-echo 
-
-sudo docker run honeygain/honeygain -tou-get
-sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
 
 
 
@@ -133,7 +130,7 @@ echo
 echo 
 
 cd downloads
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://github.com/CooperDActor/ECTETC/releases/download/v1/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 cd
 
@@ -252,19 +249,35 @@ echo
 echo 
 
 
+#installing HoneyGain
+echo installing honeygain
+echo 
+echo 
+echo 
+
+sudo docker run honeygain/honeygain -tou-get
+sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
 
 
 
-#install RDP
+#install RDP - currently teamviewer
 echo installing RDP..... sudo may be required 
 echo 
 echo 
 echo 
 echo You May Need To Enter Your Sudo Password
-
+echo 
+echo 
+echo 
 sudo apt autoremove -y
 
 
+cd downloads
+wget https://github.com/CooperDActor/ECTETC/releases/download/v1/teamviewer-host_15.53.6_amd64.deb
+wget https://github.com/CooperDActor/ECTETC/releases/download/v1/teamviewer_15.53.6_amd64.deb
+sudo dpkg -i teamviewer_15.53.6_amd64.deb
+sudo dpkg -i teamviewer-host_15.53.6_amd64.deb
+cd 
 
 
 
