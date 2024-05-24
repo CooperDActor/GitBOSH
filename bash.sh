@@ -33,7 +33,7 @@ sudo apt autoremove -y
 
 #install brew 
 echo installing brew - beer
-git clone github.com/CooperDActor/hot-brewer.git homebrew
+git clone https://github.com/CooperDActor/hot-brewer homebrew
 
 eval "$(homebrew/bin/brew shellenv)"
 
