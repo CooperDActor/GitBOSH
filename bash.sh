@@ -82,7 +82,9 @@ sudo apt update -y
 
 sudo apt-get install speedtest -y
 
-
+echo 
+echo 
+echo 
 
 
 
@@ -98,6 +100,10 @@ sudo apt update -y
 sudo apt install ntfy -y
 sudo systemctl enable ntfy
 sudo systemctl start ntfy
+
+echo 
+echo 
+echo 
 
 
 #Installing MYSTNODE
@@ -137,15 +143,7 @@ wget https://github.com/CooperDActor/ECTETC/releases/download/v1/google-chrome-s
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 cd
 
-#downloading beef
-echo beefing
-echo 
-echo 
-echo 
 
-cd
-git clone https://github.com/CooperDActor/beef
-docker build -t beef 
 
 
 #openVPN
