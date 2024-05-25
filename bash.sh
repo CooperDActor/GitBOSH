@@ -148,27 +148,7 @@ cd
 
 
 
-#openVPN
-echo VPN.com.au
-echo 
-echo 
-echo 
 
-sudo dpkg-reconfigure tzdata
-
-wget https://as-repository.openvpn.net/as-repo-public.asc -qO /etc/apt/trusted.gpg.d/as-repository.asc
-
-echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/as-repository.asc] http://as-repository.openvpn.net/as/debian bookworm main">/etc/apt/sources.list.d/openvpn-as-repo.list
-
-sudo apt update && sudo apt  install openvpn-as -y
-
-#pausing to save password
-pause() {
-    read -p "Are Ya Done YA Fuck? (y): " choice
-    case "$choice" in 
-        yes|y|Y ) echo "Righteo Mate";;
-       
-    esac
 
 
 # installing kasm
