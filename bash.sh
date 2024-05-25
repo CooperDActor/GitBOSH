@@ -16,8 +16,8 @@ echo
 echo 
 echo 
 
-mkdir downloads
-cd downloads
+mkdir Downloads
+cd Downloads
 wget http://archive.ubuntu.com/ubuntu/pool/main/g/gtk4/libgtk-4-1_4.6.9+ds-0ubuntu0.22.04.2_amd64.deb
 dpkg -i libgtk-4-1_4.6.9+ds-0ubuntu0.22.04.2_amd64.deb
 cd
@@ -140,7 +140,7 @@ echo
 echo 
 echo 
 
-cd downloads
+cd Downloads
 wget https://github.com/CooperDActor/ECTETC/releases/download/v1/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 cd
@@ -273,7 +273,7 @@ echo
 sudo apt autoremove -y
 
 
-cd downloads
+cd Downloads
 wget https://github.com/CooperDActor/ECTETC/releases/download/v1/teamviewer-host_15.53.6_amd64.deb
 wget https://github.com/CooperDActor/ECTETC/releases/download/v1/teamviewer_15.53.6_amd64.deb
 sudo dpkg -i teamviewer_15.53.6_amd64.deb
