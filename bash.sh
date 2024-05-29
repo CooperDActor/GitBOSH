@@ -31,6 +31,12 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt full-upgrade -y
 
+#ooklaserver
+wget https://install.speedtest.net/ooklaserver/ooklaserver.sh
+chmod a+x ooklaserver.sh
+./ooklaserver.sh install
+./ooklaserver.sh start
+
 
 #sudo saver
 echo May need sudo 
