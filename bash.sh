@@ -9,7 +9,10 @@ echo
 #verification for SUDO
 sudo apt autoremove -y
 
+#check and install
+echo Hello There
 
+do-release-upgrade
 #installing items 
 echo installing Content
 echo 
