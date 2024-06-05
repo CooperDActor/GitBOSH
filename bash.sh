@@ -91,12 +91,12 @@ multipass launch
 echo please enter sudo password
 sudo apt autoremove -y
 #ookla speed test
-echo installing speedtest by ookla
+#echo installing speedtest by ookla
 echo 
 echo 
 echo 
 
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+#curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 
 #update repos
 sudo apt update -y
@@ -172,22 +172,17 @@ cd
 
 
 # installing kasm
-echo installing kasm spiderweb
-echo 
-echo 
-echo 
+###echo installing kasm spiderweb
+#echo 
+#echo 
+#echo 
 
-cd /tmp
-curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.15.0.06fdc8.tar.gz
-tar -xf kasm_release_1.15.0.06fdc8.tar.gz
-sudo bash kasm_release/install.sh
+#cd /tmp
+#curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.15.0.06fdc8.tar.gz
+#tar -xf kasm_release_1.15.0.06fdc8.tar.gz
+#sudo bash kasm_release/install.sh
 #asking to save password
-pause() {
-    read -p "Are Ya Done YA Fuck? (y): " choice
-    case "$choice" in 
-        yes|y|Y ) echo "righteo mate";;
-       
-    esac
+
 #installing peppermint
 echo DO YOU HAVE A FUCKING TICKET - tea
 echo 
@@ -251,13 +246,13 @@ echo
 
 
 #installing HoneyGain
-echo installing honeygain
-echo 
-echo 
-echo 
+#echo installing honeygain
+#echo 
+#echo 
+#echo 
 
-sudo docker run honeygain/honeygain -tou-get
-sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
+#sudo docker run honeygain/honeygain -tou-get
+#sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
 
 
 
