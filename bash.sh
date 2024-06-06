@@ -25,9 +25,9 @@ wget http://archive.ubuntu.com/ubuntu/pool/main/g/gtk4/libgtk-4-1_4.6.9+ds-0ubun
 dpkg -i libgtk-4-1_4.6.9+ds-0ubuntu0.22.04.2_amd64.deb
 cd
 
-sudo apt install argyll libavahi-core7 libdaemon0 libnss-mdns brz libjs-sphinxdoc libgoa-1.0-0b libimobiledevice6 libmtp9   libsmbclient gnome-keyring cups hplip-data libhpmud0 printer-driver-hpcups python3-pil python3-reportlab printer-driver-postscript-hp libi2c0 libalgorithm-diff-perl libasprintf0v5 libvolume-key1 libbytesize1 libdevel-caller-perl libgettextpo0  gdbserver g++ gcc-9-base gcc-9 libgfortran-9-dev glibc-doc-reference libaa1 libcdk5nc6 libavahi-glib1 libcdio-cdda2 libcdio-paranoia2  libgdata22 zfs-zed libdevel-callchecker-perl libdynaloader-functions-perl libctf-nobfd0 libb-hooks-op-check-perl libctf0 libgail18 libitm1 libatomic1 libasan5 liblsan0 libtsan0 libubsan1 libquadmath0 libparams-classify-perl mysql-common libbinutils binutils-common binutils-x86-64-linux-gnu libstdc++-9-dev libcc1-0 libgcc-9-dev pkg-config libexif12 libgd3 libgtk2.0-common libgail-common libgtk2.0-bin libimport-into-perl libmodule-runtime-perl librole-tiny-perl libsub-quote-perl libnet-ip-perl libdigest-bubblebabble-perl libnet-dns-sec-perl libnet-libidn-perl libperl4-corelibs-perl libmysqlclient21 libsnmp-base libxml-sax-base-perl libxml-sax-expat-perl update-inetd containerd autoconf autotools-dev binutils libcairo-5c0 runc uuid-dev libblkid-dev docker.io docker-compose wget libx86-1 libterm-size-perl rpm rpm2cpio smistrip curl -y 
+sudo apt install argyll libavahi-core7 libdaemon0 libnss-mdns brz libjs-sphinxdoc libgoa-1.0-0b libimobiledevice6 libmtp9   libsmbclient gnome-keyring cups hplip-data libhpmud0 printer-driver-hpcups python3-pil python3-reportlab printer-driver-postscript-hp libi2c0 libalgorithm-diff-perl libasprintf0v5 libvolume-key1 libbytesize1 libdevel-caller-perl libgettextpo0  gdbserver g++ gcc-9-base gcc-9 libgfortran-9-dev glibc-doc-reference libaa1 libcdk5nc6 libavahi-glib1 libcdio-cdda2 libcdio-paranoia2  libgdata22 zfs-zed libdevel-callchecker-perl libdynaloader-functions-perl libctf-nobfd0 libb-hooks-op-check-perl libctf0 libgail18 libitm1 libatomic1 libasan5 liblsan0 libtsan0 libubsan1 libquadmath0 libparams-classify-perl mysql-common libbinutils binutils-common binutils-x86-64-linux-gnu libstdc++-9-dev libcc1-0 libgcc-9-dev pkg-config libexif12 libgd3 libgtk2.0-common libgail-common libgtk2.0-bin libimport-into-perl libmodule-runtime-perl librole-tiny-perl libsub-quote-perl libnet-ip-perl libdigest-bubblebabble-perl libnet-dns-sec-perl libnet-libidn-perl libperl4-corelibs-perl libmysqlclient21 libsnmp-base libxml-sax-base-perl libxml-sax-expat-perl update-inetd containerd autoconf autotools-dev binutils libcairo-5c0 runc uuid-dev libblkid-dev docker.io  wget libx86-1 libterm-size-perl rpm rpm2cpio smistrip curl -y 
 sudo apt --fix-broken install -y
-sudo apt install argyll libavahi-core7 libdaemon0 libnss-mdns brz libjs-sphinxdoc libgoa-1.0-0b libimobiledevice6 libmtp9   libsmbclient gnome-keyring cups hplip-data libhpmud0 printer-driver-hpcups python3-pil python3-reportlab printer-driver-postscript-hp libi2c0 libalgorithm-diff-perl libasprintf0v5 libvolume-key1 libbytesize1 libdevel-caller-perl libgettextpo0  gdbserver g++ gcc-9-base gcc-9 libgfortran-9-dev glibc-doc-reference libaa1 libcdk5nc6 libavahi-glib1 libcdio-cdda2 libcdio-paranoia2  libgdata22 zfs-zed libdevel-callchecker-perl libdynaloader-functions-perl libctf-nobfd0 libb-hooks-op-check-perl libctf0 libgail18 libitm1 libatomic1 libasan5 liblsan0 libtsan0 libubsan1 libquadmath0 libparams-classify-perl mysql-common libbinutils binutils-common binutils-x86-64-linux-gnu libstdc++-9-dev libcc1-0 libgcc-9-dev pkg-config libexif12 libgd3 libgtk2.0-common libgail-common libgtk2.0-bin libimport-into-perl libmodule-runtime-perl librole-tiny-perl libsub-quote-perl libnet-ip-perl libdigest-bubblebabble-perl libnet-dns-sec-perl libnet-libidn-perl libperl4-corelibs-perl libmysqlclient21 libsnmp-base libxml-sax-base-perl libxml-sax-expat-perl update-inetd containerd autoconf autotools-dev binutils libcairo-5c0 runc uuid-dev libblkid-dev libx86-1 docker.io docker-compose wgetlibterm-size-perl rpm rpm2cpio smistrip curl -y 
+sudo apt install argyll libavahi-core7 libdaemon0 libnss-mdns brz libjs-sphinxdoc libgoa-1.0-0b libimobiledevice6 libmtp9   libsmbclient gnome-keyring cups hplip-data libhpmud0 printer-driver-hpcups python3-pil python3-reportlab printer-driver-postscript-hp libi2c0 libalgorithm-diff-perl libasprintf0v5 libvolume-key1 libbytesize1 libdevel-caller-perl libgettextpo0  gdbserver g++ gcc-9-base gcc-9 libgfortran-9-dev glibc-doc-reference libaa1 libcdk5nc6 libavahi-glib1 libcdio-cdda2 libcdio-paranoia2  libgdata22 zfs-zed libdevel-callchecker-perl libdynaloader-functions-perl libctf-nobfd0 libb-hooks-op-check-perl libctf0 libgail18 libitm1 libatomic1 libasan5 liblsan0 libtsan0 libubsan1 libquadmath0 libparams-classify-perl mysql-common libbinutils binutils-common binutils-x86-64-linux-gnu libstdc++-9-dev libcc1-0 libgcc-9-dev pkg-config libexif12 libgd3 libgtk2.0-common libgail-common libgtk2.0-bin libimport-into-perl libmodule-runtime-perl librole-tiny-perl libsub-quote-perl libnet-ip-perl libdigest-bubblebabble-perl libnet-dns-sec-perl libnet-libidn-perl libperl4-corelibs-perl libmysqlclient21 libsnmp-base libxml-sax-base-perl libxml-sax-expat-perl update-inetd containerd autoconf autotools-dev binutils libcairo-5c0 runc uuid-dev libblkid-dev libx86-1 docker.io  wgetlibterm-size-perl rpm rpm2cpio smistrip curl -y 
 sudo apt --fix-broken install -y
 
 #update repos
@@ -193,7 +193,7 @@ cd
 git clone https://github.com/CooperDActor/peppermint.git
 cd peppermint 
 #cooper peppermint
-docker-compose up -d
+ up -d
 
 echo username for admin: admin@admin.com password for admin: 1234
 echo  
@@ -236,10 +236,10 @@ echo
 
 git clone https://github.com/CooperDActor/search
 cd search 
-docker-compose up -d
+ up -d
 cd
 
-echo to remove do this sudo docker-compose down
+echo to remove do this sudo  down
 echo 
 echo 
 echo 
