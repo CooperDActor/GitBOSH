@@ -129,12 +129,12 @@ echo
 
 
 #Installing MYSTNODE
-echo installing myst
-echo 
-echo 
-echo 
+#echo installing myst
+#echo 
+#echo 
+#echo 
 
-sudo -E bash -c "$(curl -s https://raw.githubusercontent.com/mysteriumnetwork/node/master/install.sh)"
+#sudo -E bash -c "$(curl -s https://raw.githubusercontent.com/mysteriumnetwork/node/master/install.sh)"
 sudo apt update -y
 
 
