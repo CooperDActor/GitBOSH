@@ -177,10 +177,10 @@ cd
 #echo 
 #echo 
 
-#cd /tmp
-#curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.15.0.06fdc8.tar.gz
-#tar -xf kasm_release_1.15.0.06fdc8.tar.gz
-#sudo bash kasm_release/install.sh
+cd /tmp
+curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.15.0.06fdc8.tar.gz
+tar -xf kasm_release_1.15.0.06fdc8.tar.gz
+sudo bash kasm_release/install.sh
 #asking to save password
 
 #installing peppermint
@@ -251,8 +251,8 @@ echo
 #echo 
 #echo 
 
-#sudo docker run honeygain/honeygain -tou-get
-#sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
+sudo docker run honeygain/honeygain -tou-get
+sudo docker run honeygain/honeygain -tou-accept -email thesaltyseadog@icloud.com -pass BenandJerrys00 -device SaltyHOME
 
 
 
